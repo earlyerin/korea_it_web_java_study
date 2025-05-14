@@ -30,7 +30,7 @@ public class DataTyeps {
             double 15-16
 
             부동소수점의 오류 - 무한소수(가수 23bit까지 저장, 마지막 자리 반올림)
-
+            BigDecimal이나 BigInteger 사용하여 문자열로 저장
         */
         float f = 3.14f;
         double d = 3.141592243676;
