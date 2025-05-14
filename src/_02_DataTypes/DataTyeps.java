@@ -20,7 +20,7 @@ public class DataTyeps {
         System.out.println("num1은 " + num1);
         System.out.println("num2는 " + num2);
 
-        long l = 10_000_000_000L; //가독성
+        long l = 10_000_000_000L; //가독성 향상
         System.out.println("l은 " + l);
 
         /* 자료형
