@@ -5,7 +5,6 @@ public class DataTyeps {
         System.out.println("hello");
         System.out.println(123);
 
-
         /* 변수(재사용성..유지보수..)
         자료형 변수명 = 데이터;
          */
