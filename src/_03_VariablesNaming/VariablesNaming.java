@@ -9,6 +9,7 @@ public class VariablesNaming {
         4. 소문자로 시작하고, 두번째 단어부터는 시작문자를 대문자로 -> 카멜 표기법
         5. 예약어 사용 불가 ex) public, static, void, int, float ...
         */
+        //Tip. boolean을 자료형으로 사용할 경우 is, flag로 변수명 작성
 
         /* 표기법
         파스칼 표기법(쌍봉낙타 표기법) - 클래스명, 파일명
