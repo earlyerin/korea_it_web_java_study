@@ -53,11 +53,11 @@ public class MultiArrayLoop {
         2. 해당 배열 합 구하기
          */
         int[][] arr = new int[3][3]; //선언
-        int odd = 0;
+        int odd = 0; //odd = 1
         for (int i = 0; i < arr.length; i++) { //대입
             for (int j = 0; j < arr[i].length; j++) {
-                arr[i][j] = 2 * odd + 1;
-                odd++;
+                arr[i][j] = 2 * odd + 1; //odd
+                odd++; //odd += 2
             }
         }
 
