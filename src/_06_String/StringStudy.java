@@ -11,6 +11,10 @@ public class StringStudy {
 
         System.out.println(literalStr1 == literalStr2); // true
 
+        String constructorStr1 = new String("Hello World");
+        String constructorStr2 = new String("Hello World");
+
+        System.out.println(constructorStr1 == constructorStr2); // false
 
 
 

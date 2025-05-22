@@ -1,12 +1,10 @@
 package _18_Overloading;
 
-import _17_Method.Parameter;
-
 public class Overloading {
     /*
     ***** 오버로딩 ***** (면접 질문)
     메소드 오버로딩 : 같은 이름의 메소드를 여러 개 선언
-    단, 매개변수의 타입이 다르거나 개수가 달라야하고 리턴타입은 동일해야한다.
+    단, 매개변수의 타입이 다르거나 개수가 달라야 한다.
      */
     public static int getPower(int number){
         return number * number;
