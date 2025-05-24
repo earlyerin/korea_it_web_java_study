@@ -20,17 +20,20 @@ public class Student {
         this.name = name;
     }
 
+    //noArgsConstructor
     public Student(String name, String email){
         this.name = name;
         this.email = email;
     }
 
+    //RequiredArgsConstructor
     public Student(String name, String email, int age){
         this.name = name;
         this.email = email;
         this.age = age;
     }
 
+    //AllArgsConstructor
     public Student(String name, String email, int age, String address){
         this.name = name;
         this.email = email;

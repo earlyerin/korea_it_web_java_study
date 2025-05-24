@@ -36,7 +36,7 @@ public class Scanner01 {
         //해결
         int num = sc.nextInt(); // 123 + 버퍼 메모리 => \n
         sc.nextLine(); // 버퍼 비우기
-        String str = sc.nextLine();
+        String str = sc.nextLine(); //입력
 
         System.out.println("num : " + num);
         System.out.println("str : " + str);
