@@ -17,8 +17,14 @@ public class Car {
     Car(String carNm){ //생성자 오버로딩
         System.out.println("carName의 속성값이 부여된 자동차");
         System.out.println("RequiredArgsConstructor"); //생성자에 속성이 하나라도 부여된 경우
-        this.carName = carNm; //this 키워드, 클래스의 속성을 의미 (일반적으로 속성명과 매개변수명 일치)
+        this.carName = carNm;
     }
+    /*
+    this 키워드
+    - 해당 클래스로 만들어진 객체의 속성을 의미
+    - 속성명과 매개변수명이 같을 때 명확히 구분하기 위해 사용(일반적으로 속성명과 매개변수명 일치)
+    - 명칭이 다르다면 this 생략 가능
+     */
 
     Car(String carNm, int carYM, String carC){
         System.out.println("모든 속성값이 부여된 자동차");

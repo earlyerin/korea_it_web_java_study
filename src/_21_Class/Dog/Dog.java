@@ -4,7 +4,7 @@ package _21_Class.Dog;
  */
 public class Dog {
 
-    //Field : 속성
+    //Field : 속성, 멤버변수
     String name;
     int age;
 
