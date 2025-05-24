@@ -15,7 +15,7 @@ public class Student {
     private으로 선언했을 때 값을 대입하는 방법 (변수에 직접 접근 불가능)
     1. 생성자 사용 : 해당 클래스의 생성자를 거쳐서 접근
     2. setter 메서드 사용 : 해당 클래스의 메서드를 거쳐서 접근
-    Generate 마우스 단축키 = 두 번 클릭
+    단축키 = Alt + insert
      */
 
     //1. Constructor
