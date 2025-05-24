@@ -6,15 +6,20 @@ package _21_Class.Student;
  */
 public class Student {
     //Field
-    String name;
-    String email;
-    int age;
-    String address;
+    private String name;
+    private String email;
+    private int age;
+    private String address;
 
-    //Constructor
-    public Student() {
+    /*
+    private으로 선언했을 때 값을 대입하는 방법 (변수에 직접 접근 불가능)
+    1. 생성자 사용 : 해당 클래스의 생성자를 거쳐서 접근
+    2. setter 메서드 사용 : 해당 클래스의 메서드를 거쳐서 접근
+    Generate 마우스 단축키 = 두 번 클릭
+     */
 
-    }
+    //1. Constructor
+    public Student() { }
 
     public Student(String name) {
         this.name = name;
@@ -39,6 +44,44 @@ public class Student {
         this.email = email;
         this.age = age;
         this.address = address;
+    }
+
+    //2. Setter
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    /*
+    private으로 선언했을 때 값을 반환하는 방법 : getter 메서드 사용
+     */
+
+    //Getter
+    public String getName() {
+        return name;
+    }
+
+    public String getEmail() {
+        return email;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public String getAddress() {
+        return address;
     }
 
     //Method
