@@ -1,4 +1,4 @@
-package _21_Class.Inheritance;
+package _22_Inheritance;
 
 public class Tiger extends Animal{ //Animal 클래스 상속
     /*

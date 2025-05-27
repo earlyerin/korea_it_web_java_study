@@ -1,4 +1,4 @@
-package _21_Class.Inheritance;
+package _22_Inheritance;
 /* 퀴즈
  1. Animal 상속
  2. 부모 생성자를 호출해서 객체 생성과 동시에 속성값을 대입할 수 있도록 생성자 정의
