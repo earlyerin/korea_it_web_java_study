@@ -13,10 +13,30 @@ public class Main {
          */
         Animal animal = new Animal();
         animal.setAnimalName("야옹");
+        System.out.println(animal.getAnimalName());
         animal.setAnimalAge(3);
+        System.out.println(animal.getAnimalAge());
         animal.move();
+//        animal.setStriped(true);
 
-        Tiger tiger = new Tiger();
+        Tiger tiger1 = new Tiger();
+        tiger1.setAnimalName("호랭이");
+        System.out.println(tiger1.getAnimalName());
+        tiger1.setAnimalAge(3);
+        System.out.println(tiger1.getAnimalAge());
 
+        tiger1.move();
+        tiger1.hunt();
+
+        tiger1.setStriped(true);
+        System.out.println(tiger1.isStriped());
+
+        Tiger tiger2 = new Tiger("백호", 3, false);
+
+        Human human = new Human("이예린", 21, "소년이 온다");
+        System.out.println(human.getAnimalName());
+        System.out.println(human. getAnimalAge());
+        human.move();
+        human.read(human.bookName);
     }
 }
