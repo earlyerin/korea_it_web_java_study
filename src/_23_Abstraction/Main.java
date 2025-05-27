@@ -32,5 +32,6 @@ public class Main {
         tabletFactory.manage();
         tabletFactory.produce("아이패드 6세대");
         tabletFactory.upgrade("아이패드 6세대");
+
     }
 }
