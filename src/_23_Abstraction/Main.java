@@ -27,5 +27,10 @@ public class Main {
 
         factory.produce("phone");
         factory.manage();
+
+        TabletFactory tabletFactory = new TabletFactory("Apple");
+        tabletFactory.manage();
+        tabletFactory.produce("아이패드 6세대");
+        tabletFactory.upgrade("아이패드 6세대");
     }
 }
