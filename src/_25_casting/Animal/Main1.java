@@ -1,12 +1,12 @@
 package _25_casting.Animal;
 
-public class main {
+public class Main1 {
     public static void main(String[] args) {
         /*
         UpCasting(업캐스팅)
         - 자식 클래스의 객체를 부모 클래스 타입으로 "참조"하는 것
           즉, 자식 클래스의 인스턴스(객체)를 부모 클래스 타입의 변수에 저장하는 것
-        - Java에서의 업캐슽팅은 다형성을 구현하는 핵심 개념
+        - Java에서의 업캐스팅은 다형성을 구현하는 핵심 개념
          */
 
         Dog d1 = new Dog();
