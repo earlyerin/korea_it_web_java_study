@@ -9,7 +9,7 @@ package _27_Bean;
 /* Bean : 하나의 객체 설계 규칙(명세, 가이드라인)
  [조건]
  - 모든 멤버변수는 private로 선언(캡슐화)
- - 기본 생성자 존재
+ - 생성자 존재
  - Getter & Setter 메소드로 접근
  */
 public class UserEntity {
