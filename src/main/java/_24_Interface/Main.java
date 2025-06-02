@@ -16,9 +16,9 @@ public class Main {
         tvRemoteController.onUpChannelUpButton();
 
         tvRemoteController.onPressedVolumeDownButton();
-        tvRemoteController.onUpVolumeUpButton(); //
+        tvRemoteController.onUpVolumeUpButton();
 
-        tvRemoteController.onPressedChannelDownButton(); //
+        tvRemoteController.onPressedChannelDownButton();
 
         tvRemoteController.onPressedPowerButton();
 
