@@ -39,8 +39,5 @@ public class DataController {
         ResponseData<UserEntityLombok> userData = new ResponseData<>("Data : ", userEntityLombok);
         System.out.println(userData);
 
-
-
-
     }
 }

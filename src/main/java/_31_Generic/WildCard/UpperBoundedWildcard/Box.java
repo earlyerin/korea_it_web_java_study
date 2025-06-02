@@ -1,4 +1,4 @@
-package _31_Generic.WildCard.UnBoundedWildcard;
+package _31_Generic.WildCard.UpperBoundedWildcard;
 
 import lombok.Data;
 
