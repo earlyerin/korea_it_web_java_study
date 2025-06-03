@@ -2,17 +2,12 @@ package _00_Blog.OOP;
 
 public class Main {
     public static void main(String[] args) {
-        RemoteControl TvRemoteControl = new RemoteControl("TV");
-        RemoteControl ACRemoteControl = new RemoteControl("Air Conditioning");
-        RemoteControl LampRemoteControl = new RemoteControl("Lamp");
+        RemoteControl remoteControl = new RemoteControl();
 
-        TvRemoteControl.powerOn();
-        TvRemoteControl.powerOff();
+//      remoteControl.device = TV;
 
-        ACRemoteControl.powerOn();
-        ACRemoteControl.powerOff();
+        remoteControl.setDevice("TV");
+        System.out.println(remoteControl.getDevice());
 
-        LampRemoteControl.powerOn();
-        LampRemoteControl.powerOff();
     }
 }
