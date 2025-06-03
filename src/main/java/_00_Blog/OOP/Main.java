@@ -10,10 +10,5 @@ public class Main {
 
         System.out.println(LampRemoteControl.powerButton());
         System.out.println(LampRemoteControl.powerButton());
-
-
-
-
-
     }
 }
