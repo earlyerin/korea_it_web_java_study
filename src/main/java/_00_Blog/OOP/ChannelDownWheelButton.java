@@ -1,18 +1,18 @@
 package _00_Blog.OOP;
 
-public class ChannelUpWheelButton extends WheelButton{
+public class ChannelDownWheelButton extends WheelButton{
     @Override
     public String OnPressed() {
         return "";
     }
 
     @Override
-    public void OnDown() {
+    public void OnUp() {
 
     }
 
     @Override
-    public void OnUp() {
+    public void OnDown() {
 
     }
 }

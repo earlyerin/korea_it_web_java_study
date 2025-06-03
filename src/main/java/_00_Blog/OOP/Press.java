@@ -1,5 +1,5 @@
 package _00_Blog.OOP;
 
 public interface Press {
-    public abstract void OnPressed();
+    public abstract String OnPressed();
 }

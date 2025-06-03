@@ -2,13 +2,13 @@ package _00_Blog.OOP;
 
 public class Main {
     public static void main(String[] args) {
-        RemoteControl TvRemoteControl = new RemoteControl("TV");
-        RemoteControl LampRemoteControl = new RemoteControl("Lamp");
+        RemoteControl remoteControl = new RemoteControl();
 
-        System.out.println(TvRemoteControl.powerButton());
-        System.out.println(TvRemoteControl.powerButton());
-
-        System.out.println(LampRemoteControl.powerButton());
-        System.out.println(LampRemoteControl.powerButton());
+        remoteControl.power();
+        remoteControl.channelUp();
+        remoteControl.channelUp();
+        remoteControl.channelUp();
+        remoteControl.channelDown();
+        remoteControl.power();
     }
 }

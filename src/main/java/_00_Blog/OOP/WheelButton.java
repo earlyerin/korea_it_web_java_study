@@ -2,7 +2,7 @@ package _00_Blog.OOP;
 
 public abstract class WheelButton implements Press, Up, Down {
     @Override
-    public abstract void OnPressed();
+    public abstract String OnPressed();
 
     @Override
     public abstract void OnDown();

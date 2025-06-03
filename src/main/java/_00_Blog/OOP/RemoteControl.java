@@ -2,21 +2,24 @@ package _00_Blog.OOP;
 
 public class RemoteControl {
     //Field
-    private String device;
-    private boolean status;
+    private PowerButton powerButton = new PowerButton();
+    private ChannelUpButton channelUpButton = new ChannelUpButton();
+    private ChannelDownButton channelDownButton = new ChannelDownButton();
 
-    //Constructor
-    public RemoteControl(String device) {
-        this.device = device;
+    public void power(){
+        System.out.println(powerButton.OnPressed());
     }
 
-    public String powerButton(){
-        if(status){
-            status = false;
-            return device + " 전원 끄기";
-        }
-        status = true;
-        return device + " 전원 켜기";
+    public void channelUp(){
+        System.out.println(channelUpButton.OnPressed());
     }
+
+    public void channelDown(){
+        System.out.println(channelDownButton.OnPressed());
+    }
+
+
+
+
 }
 
