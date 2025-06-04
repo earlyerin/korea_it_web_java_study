@@ -43,9 +43,9 @@ public class BookJson {
         /*
         Gson Class의 toJson() 메서드를 사용했을 때 궁금한 점 : 메모리를 소유하는 것은 여전히 Book 클래스 인가?
             1. Gson 객체를 이용해 toJson() 메서드를 호출하고 인수로 Book의 객체를 전달한다.
-            2. 해당 메서드는 "Json 형태로 변환한 Book 객체의 복사본"을 String 타입으로 반환한다.
-            3. 즉, "Gson Class는 출력 형태 변환을 위해 사용할 뿐" 출력할 내용의 메모리를 소유하지 않는다.
-            (GsonBuilder Class도 마찬가지)
+            2. 해당 메서드는 "Json 형태로 변환한 Book 객체의 복사본"을 새로운 String 객체로 반환한다.
+            3. 즉, "Gson Class는 출력 형태 변환을 위해 사용할 뿐" 반환할 내용의 메모리를 소유하지 않는다.
+               (GsonBuilder Class도 마찬가지)
          */
 
 //        2. Json 형태 문자열 -> Map

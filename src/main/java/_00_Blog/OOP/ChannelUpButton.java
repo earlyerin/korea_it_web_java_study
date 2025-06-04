@@ -1,14 +1,15 @@
 package _00_Blog.OOP;
 
-public class ChannelUpButton extends Button{
-    @Override
+public class ChannelUpButton { //채널 올림 버튼
     public String OnPressed() {
         int channelUp = Channel.channel;
 
         if(channelUp == 100){
-            channelUp = 1;
+            channelUp = 1; //경계값 처리
+        }else {
+            channelUp++; //채널 올림
         }
-        channelUp++;
+
         Channel.channel = channelUp;
         return "Channel." + channelUp;
     }

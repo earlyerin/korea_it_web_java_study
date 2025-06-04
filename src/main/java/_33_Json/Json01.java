@@ -4,7 +4,7 @@ package _33_Json;
  Json(JavaScript Object Notation)
  - 본래 자바스크립트 언어로 부터 파생되어 자바스크립트 구문을 따르지만
    언어 독립형 데이터 포맷(표기법)
- - Map 구조처럼 Key와 Value 형태
+ - Map 구조처럼 Key와 Value 형태, 구조화된 문자열 형태로 전송 및 저장할 때 유용
  - Java에서 직접적으로 사용할 수 없기 때문에 의존성에 라이브러리를 추가하여 사용
  */
 

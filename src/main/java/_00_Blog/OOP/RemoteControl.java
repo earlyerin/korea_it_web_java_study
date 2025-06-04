@@ -17,9 +17,5 @@ public class RemoteControl {
     public void channelDown(){
         System.out.println(channelDownButton.OnPressed());
     }
-
-
-
-
 }
 
