@@ -22,11 +22,10 @@ public class listQuiz {
         List<String> todoList = new ArrayList<>();
         Scanner sc = new Scanner(System.in);
 
-
         exit:
         while(true){
             System.out.println("=======================ToDo======================");
-            System.out.println("1.입력 | 2.출력 | 3.정렬 | 4.검색 | 5.삭제 | 6.개수 | 7.종료");
+            System.out.println("1.입력 | 2.출력 | 3.검색 | 4.삭제 | 5.정렬 | 6.개수 | 7.종료");
             int num = sc.nextInt();
             switch (num){
                 case 1 :
@@ -49,18 +48,21 @@ public class listQuiz {
                     break;
                 case 3 :
                     System.out.print("찾고 싶은 todo가 있나요?");
+                    sc.nextLine();
                     String searchTodo = sc.nextLine();
                     boolean searchResult = todoList.contains(searchTodo);
                     System.out.println("\"" + searchTodo+"\" todo 포함 여부 : " + searchResult);
                     System.out.println();
                     break;
                 case 4 :
-                    System.out.println("삭제 하고 싶은 todo가 있나요?");
-                    System.out.print("없다면 X를 입력하세요.");
+                    System.out.print("삭제 하고 싶은 todo가 있나요?");
+                    sc.nextLine();
                     String removeTodo = sc.nextLine();
                     boolean removeResult = todoList.remove(removeTodo);
-                    if(!removeTodo.equals("X")){
+                    if(removeResult){
                         System.out.println("\"" + removeTodo+ "\" todo 삭제 여부 : " + removeResult);
+                    }else {
+                        System.out.println("존재하지 않은 목록입니다.");
                     }
                     System.out.println();
                     break;
@@ -68,8 +70,8 @@ public class listQuiz {
                     Collections.sort(todoList);
                     System.out.println("todo list 오름차순 정렬 : " +todoList);
 
-                    Collections.sort(todoList);
-                    System.out.println("todo list 오름차순 정렬 : " +todoList);
+                    todoList.sort(Collections.reverseOrder());
+                    System.out.println("todo list 내림차순 정렬 : " +todoList);
                     break;
                 case 6 :
                     System.out.println("오늘의 todo 개수 : " + todoList.size());

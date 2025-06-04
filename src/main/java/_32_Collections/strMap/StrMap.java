@@ -39,7 +39,7 @@ public class StrMap {
         /*
         Map 순회
         Map은 Colletion이 아니므로 직접적으로 순회할 수 없음(collection은 iterable 인터페이스를 상속 받음)
-        순회하기 위해서는 Iterable<?>(반복이 가능하게 하는 인터페이스)인터페이스를 구현한 클래스이거나 배열[T[])일 때만 가능
+        순회하기 위해서는 Iterable<?>(반복이 가능하게 하는 인터페이스)인터페이스를 구현한 클래스이거나 배열(T[])일 때만 가능
          */
         System.out.println(strMap1.entrySet());
         System.out.println(strMap1.keySet());
@@ -85,13 +85,6 @@ public class StrMap {
 
         Collections.sort(entryList1, Map.Entry.comparingByValue(Comparator.reverseOrder())); //값 기준 역순 정렬
         System.out.println(entryList1);
-
-
-
-
-
-
-
 
     }
 }
