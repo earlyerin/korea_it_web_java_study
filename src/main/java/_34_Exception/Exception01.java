@@ -12,6 +12,7 @@ package _34_Exception;
  - 예외가 발생한 지점에서 처리하지 않으면 프로그램 비정상 종료
    따라서 예외 처리 구문으로 예외 상황에 대한 적절한 대응을 통해 정상 동작하도록 처리
  */
+
 public class Exception01 {
     public static void main(String[] args) {
         //RuntimeException
