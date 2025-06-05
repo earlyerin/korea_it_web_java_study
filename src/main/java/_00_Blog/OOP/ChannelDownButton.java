@@ -2,7 +2,7 @@ package _00_Blog.OOP;
 
 public class ChannelDownButton extends Button{ //채널 내림 버튼
     @Override
-    public String OnPressed() {
+    public String onPressed() {
         int channelDown = Channel.channel;
 
         if(channelDown == 1){

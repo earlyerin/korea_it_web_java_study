@@ -2,7 +2,7 @@ package _00_Blog.OOP;
 
 public class ChannelUpButton extends Button { //채널 올림 버튼
     @Override
-    public String OnPressed() {
+    public String onPressed() {
         int channelUp = Channel.channel;
 
         if(channelUp == 100){
