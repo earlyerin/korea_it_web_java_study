@@ -1,7 +1,7 @@
 package _00_Blog.OOP;
 
-public class ChannelUpButton extends Button { //채널 올림 버튼
-    @Override
+public class ChannelUpButton { //채널 올림 버튼
+
     public String onPressed() {
         int channelUp = Channel.channel;
 
@@ -13,17 +13,5 @@ public class ChannelUpButton extends Button { //채널 올림 버튼
 
         Channel.channel = channelUp;
         return "Channel." + channelUp;
-    }
-
-    @Override
-    public String enable() {
-        return super.enable().replaceAll(super.enable()
-                , "enable channel UP button");
-    }
-
-    @Override
-    public String disable() {
-        return super.disable().replaceAll(super.disable()
-                , "disable channel UP button");
     }
 }
