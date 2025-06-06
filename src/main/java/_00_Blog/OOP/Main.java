@@ -8,6 +8,9 @@ public class Main {
         remoteControl.channelUp();
         remoteControl.channelUp();
         remoteControl.channelUp();
+        remoteControl.fixedChannel();
+        remoteControl.channelUp();
+        remoteControl.changeableChannel();
         remoteControl.channelDown();
         remoteControl.power();
     }

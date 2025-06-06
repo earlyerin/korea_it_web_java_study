@@ -1,10 +1,10 @@
 package _00_Blog.OOP;
 
-public class PowerButton { //전원 버튼
+public class PowerButton extends Button{ //Button 상속
+    private boolean status = false;
 
-    private boolean status = false; //전원 상태
-
-    public String onPressed() { //전원 버튼 누름
+    @Override //메서드 오버라이딩
+    public String onPressed() {
         if(status){
             status = false;
             return "Power Off";

@@ -2,7 +2,7 @@ package _00_Blog.OOP;
 
 public class ChannelUpWheelButton extends WheelButton{
     @Override
-    public String OnPressed() {
+    public String onPressed() {
         return "";
     }
 
