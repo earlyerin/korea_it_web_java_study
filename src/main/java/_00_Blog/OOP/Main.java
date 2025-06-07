@@ -7,6 +7,9 @@ public class Main {
         newRemoteControl.power();
         newRemoteControl.channelOnDown(97);
         newRemoteControl.channelOnUp(5);
+        newRemoteControl.fixedChannel();
+        newRemoteControl.channelOnUp(7);
+        newRemoteControl.changeableChannel();
         newRemoteControl.channelOnUp(7);
         newRemoteControl.power();
 
