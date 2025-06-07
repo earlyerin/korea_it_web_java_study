@@ -2,16 +2,13 @@ package _00_Blog.OOP;
 
 public class Main {
     public static void main(String[] args) {
-        RemoteControl remoteControl = new RemoteControl();
 
-        remoteControl.power();
-        remoteControl.channelUp();
-        remoteControl.channelUp();
-        remoteControl.channelUp();
-        remoteControl.fixedChannel();
-        remoteControl.channelUp();
-        remoteControl.changeableChannel();
-        remoteControl.channelDown();
-        remoteControl.power();
+        NewRemoteControl newRemoteControl = new NewRemoteControl();
+        newRemoteControl.power();
+        newRemoteControl.channelOnDown(97);
+        newRemoteControl.channelOnUp(5);
+        newRemoteControl.channelOnUp(7);
+        newRemoteControl.power();
+
     }
 }
