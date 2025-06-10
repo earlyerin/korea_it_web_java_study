@@ -45,5 +45,17 @@ public class StreamApi {
 
         result.forEach(name -> System.out.println(name));
         result.forEach(System.out::println);
+
+        int count = 0;
+        for (String name : engListNames){
+            if(name.length() > 3){ count++; }
+        }
+        System.out.println(count);
+
+        long countStream = engListNames.stream()
+                .filter(name -> name.length()>3)
+                .count(); //count의 반환 타입 = long
+        System.out.println(count);
+
     }
 }
